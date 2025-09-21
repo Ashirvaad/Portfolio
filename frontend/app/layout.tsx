@@ -1,8 +1,8 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { ReactNode } from 'react';
-import Navbar from '../src/components/Navbar.tsx';
-import Footer from '../src/components/Footer.tsx';
+import Navbar from '../src/components/Navbar';
+import Footer from '../src/components/Footer';
 
 export const metadata: Metadata = {
   title: 'My Portfolio',
