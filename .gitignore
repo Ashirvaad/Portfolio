@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+/.pnpm-store
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+/public
+/out
+
+# misc
+.DS_Store
+.env
+.env.local
+.cache
+.vscode
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
