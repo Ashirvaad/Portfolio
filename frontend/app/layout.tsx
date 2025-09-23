@@ -13,8 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
-        {/* This is the corrected section for your assets. */}
-        <link rel="icon" href="/favicon.ico" />
+        {/* The favicon link has been removed as the file does not exist. */}
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className="bg-white text-slate-900">
