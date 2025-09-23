@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useState } from "react";
 
 type Project = {
@@ -20,13 +19,13 @@ export default function Projects() {
         id: 1,
         title: "Portfolio Website",
         description: "Personal portfolio built with Next.js, TailwindCSS, and TypeScript.",
-        image: "/images/project1.png"
+        image: "https://placehold.co/600x400/1e293b/white?text=Project+1"
       },
       {
         id: 2,
         title: "E-Commerce App",
         description: "Fullstack MERN app with authentication and payments.",
-        image: "/images/project1.png"
+        image: "https://placehold.co/600x400/1e293b/white?text=Project+2"
       },
     ]);
   }, []);
@@ -41,7 +40,7 @@ export default function Projects() {
               key={project.id}
               className="bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform"
             >
-              <Image
+              <img
                 src={project.image}
                 alt={project.title}
                 width={600}
@@ -59,3 +58,4 @@ export default function Projects() {
     </section>
   );
 }
+
